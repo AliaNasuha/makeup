@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us</title>
+</head>
+<style>
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f7f7f7;
+    background-image: url(image/bg2.avif);
+    background-size: cover; 
+    background-repeat: no-repeat; 
+    background-attachment: fixed;
+}
+
+header {
+    background-color: #fff;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.logo {
+    font-size: 1.5rem;
+    text-decoration: none;
+    color: #333;
+}
+
+.navbar {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    padding: 0;
+}
+
+.navbar li {
+    margin: 0;
+    padding: 0;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: #333;
+    font-weight: 600;
+}
+
+.bx-menu {
+    font-size: 2rem;
+    color: #333;
+    cursor: pointer;
+}
+
+.content {
+    padding: 80px 17%;
+}
+
+.about {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.about h1 {
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.about p {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.about ul {
+    list-style: disc;
+    margin-left: 20px;
+}
+
+.about li {
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+
+.contact {
+    background-color: #fff;
+    padding: 20px;
+}
+
+.main-contact {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.contact-content {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.contact-content li {
+    margin-bottom: 10px;
+}
+
+.contact-content a {
+    text-decoration: none;
+    color: #333;
+    font-weight: 500;
+    font-size: 14px;
+    display: block;
+}
+
+.contact-content a:hover {
+    color: #666;
+}
+
+footer {
+    background-color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    font-size: 14px;
+}
+</style>
+
+<body>
+    <header>
+        <a href="#" class="logo">SimpleGlow</a>
+        <div class="bx bx-menu"></div>
+
+        <ul class="navbar">
+            <li><a href="index.html">Shop</a></li>
+            <li><a href="cart.html">My Cart</a></li>
+            <li><a href="about.html">About</a></li>
+        </ul>
+    </header>
+
+    <main class="content">
+        <section class="about">
+            <h1>About SimpleGlow</h1>
+            <p>Welcome to SimpleGlow, your destination for clean and minimalist makeup. We believe that beauty is best when it's simple and natural. Our mission is to provide you with high-quality makeup products that enhance your natural beauty without the need for excessive layers and complicated routines.</p>
+            <p>At SimpleGlow, we are committed to:</p>
+            <ul>
+                <li>Using clean and eco-friendly ingredients in our products.</li>
+                <li>Promoting a minimalist approach to makeup for a natural look.</li>
+                <li>Providing makeup solutions for every skin type and tone.</li>
+            </ul>
+            <p>Join us in embracing the beauty of simplicity. Discover our carefully curated collection of makeup products and start your journey to a more effortless beauty routine.</p>
+        </section>
+    </main>
+    <br><br><br>
+    <section class="contact" id="contact">
+        <div class="main-contact">
+          <div class="contact-content">
+            <li><a href="#">Brands</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">FAQ</a></li>
+            <li><a href="#">Contact</a></li>
+          </div>
+    
+          <div class="contact-content">
+            <li><a href="#">Privacy Policy</a></li>
+            <li><a href="#">Shipping & Returns</a></li>
+            <li><a href="#">Customer Service</a></li>
+          </div>
+  
+          <div class="contact-content">
+            <li><a href="#">Facebook</a></li>
+            <li><a href="#">Instagram</a></li>
+            <li><a href="#">Twitter</a></li>
+          </div>
+        </div>
+      </section>
+    <footer>
+        <p>&copy; 2023 SimpleGlow. All rights reserved.</p>
+    </footer>
+</body>
+</html>
